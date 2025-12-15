@@ -4,7 +4,7 @@ function lexer(input){
     
     while(cursor<input.length){
         let char=input[cursor];
-        if(/\s/.test(char)){ //skip whitespace
+        if(/\s/.test(char)){ 
             cursor++;
             continue;
 
@@ -96,7 +96,7 @@ function runner(input){
 }
 
 const code =`
-lo x= 10
+lo x= 40
 lo y =20
 lo sum =x+y 
 likho sum
